@@ -6,6 +6,7 @@ sensor.set_framesize(sensor.QVGA)
 sensor.skip_frames(time = 2000)
 
 clock = time.clock()
+thresholds = (0,53,-128,9,-128,4)
 
 while(True):
     clock.tick()
